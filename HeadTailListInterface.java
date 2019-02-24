@@ -9,13 +9,13 @@ package com.Tljessop.InterfacePractice;
  */
 
 public interface HeadTailListInterface<T> {
-
+    //Thomas
     /**
      * Adds a new object of the specified type to the first index of the list
      * @param newEntry The object to be placed at the beginning of the list
      */
     void addFront(T newEntry);
-
+//Thomas
     /**
      * Adds a new object of the specified type to the last index of the list
      * @param newEntry The object to be placed at the end of the list
@@ -37,7 +37,7 @@ public interface HeadTailListInterface<T> {
      * @throws IndexOutOfBoundsException This exception is thrown if the method is used on an empty list
      */
     T removeBack();
-
+//Thomas
     /**
      * Returns the contains of the list at the given index
      * @param position The index of the desired object
