@@ -21,7 +21,7 @@ public interface HeadTailListInterface<T> {
      * @param newEntry The object to be placed at the end of the list
      */
     void addBack(T newEntry);
-
+    ///KURT
     /**
      * Removes the first object on the list, and shifts to the front the remaining objects on the list.
      * After doing so the size of the list is decremented
@@ -29,7 +29,7 @@ public interface HeadTailListInterface<T> {
      * @throws IndexOutOfBoundsException This exception is thrown if the method is used on an empty list
      */
     T removeFront();
-
+    ///KURT
     /**
      * Removes the last object on the list.
      * After doing so the size of the list is decremented
@@ -45,12 +45,12 @@ public interface HeadTailListInterface<T> {
      * @throws IndexOutOfBoundsException This exception is thrown if the given index does not exist on the list
      */
     T getEntry(int position);
-
+    //KURT
     /**
      * Formats the list in to a user-friendly String and writes that String to standard out
      */
     void display();
-
+    //VINCE
     /**
      * Searches the list for a given object of the specified type.
      * Note the a positive result will occur for matches that aliases or logical equal
@@ -59,19 +59,19 @@ public interface HeadTailListInterface<T> {
      *         If the given object is not found returns -1
      */
     int contains (T entry);
-
+    //VINCE
     /**
      * Informs the caller of whether the list currently contains any objects
      * @return Returns true if there are no objects in the list, otherwise returns false
      */
     boolean isEmpty();
-
+    //VINCE
     /**
      * Returns the current length of the list
      * @return The number of objects currently in the list.
      */
     int size();
-
+    //VINCE
     /**
      * Removes all objects from the list and sets the list length to 0
      */
